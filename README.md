@@ -59,9 +59,9 @@ Things you may want to cover:
 |PPR|integer||
 |try_double|integer||
 |hit_double|integer||
-|rating|integer|null: false|
+|rating|integer||
 |win_to_first|integer||
-|win|integer|null: false|
+|win|integer||
 |ton|integer||
 |ton_eighty|integer||
 |user_id|references|null: false, foreign_key: true|
