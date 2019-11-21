@@ -1,3 +1,54 @@
-// Place all the styles related to the battle controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.header{
+  background-color:#0066FF;
+  color: #FFF;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  z-index: 1;
+  &__title{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+  }
+}
+.maincontents{
+  display: flex;
+  overflow: auto;
+  justify-content: space-between;
+  height: calc(100vh - 150px);
+  width: 100vw;
+  margin: 0;
+  &__left{
+    padding-left: 100px;
+  }
+  &__right{
+    padding-right: 100px;
+    
+  }
+}
+.footer{
+  background-color: #0066ff;
+  color: #FFF;
+  height: 50px;
+  width: 100vw;
+  margin: 0;
+  font-size: 40px;
+  z-index: 1;
+  &__text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    &__left{
+      padding-left: 200px;
+    }
+    &__center{
+      text-align: center;
+    }
+    &__right{
+      padding-right: 200px;
+    }
+  }
+}

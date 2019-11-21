@@ -1,0 +1,10 @@
+@import "./reset";
+@import "./battle";
+@import "./battle_field";
+@import "font-awesome-sprockets";
+@import "./font-awesome";
+
+.body{
+  width: 100vw;
+  height: 100vh;
+}
